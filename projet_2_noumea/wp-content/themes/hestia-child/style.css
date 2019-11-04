@@ -1,0 +1,1020 @@
+@charset "UTF-8";  
+/*
+ Theme Name:   Hestia-child
+ Theme URI:    https://themeisle.com/themes/hestia/
+ Description:  Description de mon thème enfant
+ Author:       Etienne
+ Author URI:   https://wpmarmite.com
+ Template:     hestia
+ Version:      1.0.0
+*/
+
+
+/*-------------------------------
+Page d'accueil
+-------------------------------*/
+
+.home .page-header .header-filter::before 
+{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.home .page-header
+{
+    background-image: url(http://projet2.etiennejuffard.fr/wp-content/uploads/2019/04/noumea2.jpg);
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.navbar.navbar-transparent li a  
+{
+    color: #fff;
+}
+
+.navbar-default
+{
+  border:none;
+}
+
+.navbar-default .navbar-nav li a:hover
+{
+  color: #fff;
+}
+
+.big-title-slider-content
+{
+  margin-left:0;
+  width:100%;
+}
+
+.big-title-slider-content .hestia-title
+{
+  font-size: 5em;
+  line-height: 1.4em;
+}
+
+/*-------------------------------
+Pages - général 
+-------------------------------*/
+
+.page-header.header-small .container 
+{
+    padding-top: 180px;
+    padding-bottom: 120px;
+}
+
+.header-filter::after 
+{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.main-raised 
+{
+  margin: -40px 15px;
+}
+
+/*-------------------------------
+Page d'accueil - aniamtion 
+-------------------------------*/
+@keyframes animationh1
+{
+   0%
+   {
+    transform: translateX(-100%);
+     opacity:0.5;
+   }
+
+  30%
+  {
+    opacity:0.6;
+  }
+  
+  50%
+  {
+    opacity:0.8;
+  }
+  
+   100%
+   {
+    transform: translateX(0%);
+     opacity:1;
+   }
+   
+}
+
+@keyframes animationp
+{
+   0%
+   {
+    transform: translateX(200%);
+     opacity:0.5;
+   }
+
+  30%
+  {
+    opacity:0.6;
+  }
+  
+  50%
+  {
+    opacity:0.8;
+  }
+  
+   100%
+   {
+    transform: translateX(0%);
+     opacity:1;
+   }
+   
+}
+
+.home .page-header .container .hestia-title
+{
+  animation: animationh1 1.8s  ease-out;
+}
+
+.home .page-header .container .sub-title
+{
+  animation: animationp 1.8s  ease-out;
+}
+/*-------------------------------
+Blog - Accueil 
+-------------------------------*/
+
+.home .main 
+{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:flex-start;
+  width:100%;
+  flex-wrap:wrap;
+  background:none;
+  margin-top: 10px;
+}
+
+.home .main .section:first-of-type 
+{
+    overflow: hidden;
+}
+
+.home .hestia-about
+{
+  width:90%;
+  height:auto;
+  margin:10px 20px 10px 20px;
+  box-shadow: 0 1px 10px -6px rgba(0,0,0,0.42), 0 1px 10px 0 rgba(0,0,0,0.12), 0 4px 5px -2px rgba(0,0,0,0.1);
+  border-radius:6px;
+  padding-top:10px;
+} 
+
+.home .hestia-about-content h3
+{
+  text-align:center;
+  margin-bottom: 20px;
+}
+
+.home .hestia-about-content
+{
+  text-align:center;
+  padding:20px 40px 5px 40px;
+}
+
+.home .wp-block-button
+{
+	margin-top: 45px;
+}
+
+.home .wp-block-button a:hover
+{
+  text-decoration: none;
+}
+
+.home .hestia-blogs
+{
+  width:90%;
+  height:auto;
+  margin:10px 10px 80px 10px;
+  box-shadow: 0 1px 10px -6px rgba(0,0,0,0.42), 0 1px 10px 0 rgba(0,0,0,0.12), 0 4px 5px -2px rgba(0,0,0,0.1);
+  border-radius:6px 6px 0 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.home .hestia-blog-content
+{
+	padding-top: 20px;
+}
+
+.home .hestia-blog-content .card 
+{
+    width: 350px;
+    text-align: justify;
+}
+
+.home .hestia-blog-content .card-image 
+{
+    width: 343px;
+}
+
+.home .card-blog .posted-by.vcard.author
+{
+  color:#008787;
+}
+
+/*-------------------------------
+Contact - formulaire 
+-------------------------------*/
+
+.page-id-49 .header-filter 
+{
+	background-image: url(http://projet2.etiennejuffard.fr/wp-content/uploads/2019/05/noumea4.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+.page-id-49 .header-filter-gradient
+{
+  background-position: right;
+}
+
+
+.page-id-49 .container #post-49
+{
+  width:100%; 
+}
+
+.page-id-49 .col-md-offset-2 
+{
+  width:100%;
+  height:1100px;
+  margin-left:0;
+  margin-right:0;
+}
+
+.page-id-49 .col-md-offset-2 h3
+{
+  background-color:#008787;
+  color:#fff;
+  border-radius:6px 6px 0 0;
+  padding: 30px 30px 30px 60px;
+  text-align:left;
+}
+
+.page-id-49 .wpcf7-form
+{
+  height:auto;
+  width:100%;
+  padding:70px 60px 10px 60px;
+  box-shadow: 0 1px 10px -6px rgba(0,0,0,0.42), 0 1px 10px 0 rgba(0,0,0,0.12), 0 4px 5px -2px rgba(0,0,0,0.1);
+  z-index:0;
+}
+
+/*-------------------------
+ Activités du mois 
+-------------------------*/
+
+.page-id-455 .blog-post .container 
+{
+    width: 100%;
+}
+
+.page-id-455 .col-md-offset-2
+{
+  margin-left: 40px;
+  width: 100%;
+}
+
+.page-id-455 .header-filter 
+{
+  background-image: url(http://projet2.etiennejuffard.fr/wp-content/uploads/2019/05/surf2.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.page-id-455 .css-events-list
+{
+	margin-top: 50px;
+}
+
+.page-id-455 .page-content-wrap .em-search-wrapper, .page-id-455 .page-content-wrap .css-events-list h2
+{
+	display: none;
+}
+
+.page-id-455 table thead tr th 
+{
+    font-size: 1em;
+    font-weight: bold;
+    padding-left: 0;
+}
+
+.page-id-455 table tbody tr
+{
+  height: 100px;
+}
+
+.page-id-455 table tbody tr:hover
+{
+  color: #008787;
+}
+
+
+.page-id-455 table tbody td:first-child
+{
+  width: 12%;
+}
+
+.page-id-455 table tbody td:nth-child(2)
+{
+  width: 100px;
+}
+
+.page-id-455 table tbody td:nth-child(3)
+{
+  width: 50%;
+  padding-right: 35px;
+}
+
+.page-id-455 table tbody td:last-child
+{
+  width: 16%;
+  padding-right: 0;
+  padding-left: 20px;
+}
+
+.page-id-455 table tbody a
+{
+  text-decoration: none;
+  box-shadow: none;
+  background-color: #008787;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 28px;
+}
+
+/*-------------------------
+ Actualités
+-------------------------*/
+
+.blog .header-filter 
+{
+	background-image: url(http://projet2.etiennejuffard.fr/wp-content/uploads/2019/05/footer1.jpeg);
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+.blog .header-filter-gradient
+{
+  background-position: center;
+  background-size: cover;
+}
+
+.blog .hestia-blog-featured-card.post-130.type-post.status-publish.format-standard.has-post-thumbnail.category-actualite 
+{
+	display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hestia-blogs .hestia-blog-featured-card .card-background:after 
+{
+    opacity: 0;
+}
+
+.hestia-blogs .btn:hover
+{
+	color: #fff;
+}
+
+.hestia-blogs .card-background
+{
+	width:70%;
+}
+
+.hestia-blogs .card-background .card-body .card-description 
+{
+    color: rgba(255, 255, 255, 0.9);
+    text-align: justify;
+}
+
+.hestia-blogs .card-background .card-body 
+{
+    min-height: 280px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 6px;
+    background-color: rgba(79, 79, 79, 0.4);
+}
+
+.hestia-blogs article:nth-of-type(6n+1) .card-body .btn 
+{
+    background-color: #008787;
+}
+
+.hestia-blog-content .row::before
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 0;
+}
+
+/*-------------------------
+ Plus d'infos 
+-------------------------*/
+
+.page-id-46 .header-filter
+{
+	background-image: url(http://projet2.etiennejuffard.fr/wp-content/uploads/2019/05/marche.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+.page-id-46 #post-46
+{
+  width:100%;
+  border-radius: 6px;
+  box-shadow: 0 1px 10px -6px rgba(0,0,0,0.42), 0 1px 10px 0 rgba(0,0,0,0.12), 0 4px 5px -2px rgba(0,0,0,0.1);
+  margin:20px 0 20px 0;
+  padding-top:15px;
+}
+
+.page-id-46 .wp-block-media-text__content p
+{
+	font-size: 1.2em;
+}
+
+.page-id-46 .alignwide
+{
+  padding:20px 0 20px 0;
+  border-bottom:1px solid #e5e5e5;
+}
+
+.page-id-46 .wp-block-media-text__media img
+{
+  box-shadow: 0 2px 10px -6px rgba(0,0,0,0.42), 0 1px 10px 0 rgba(0,0,0,0.12), 0 4px 5px -2px rgba(0,0,0,0.1);
+}
+
+.page-id-46 .wp-block-media-text__media img:hover
+{
+box-shadow: 0 10px 10px -2px rgba(0,0,0,0.42), 0 1px 10px 0 rgba(0,0,0,0.12), 0 4px 5px -2px rgba(0,0,0,0.1);
+}
+
+/*-------------------------------
+footer 
+-------------------------------*/
+
+footer.footer.footer-black 
+{
+    width: 100%;
+    background: #008787;
+}
+
+footer.footer-black.footer-big 
+{
+box-shadow: 0 1px 10px -6px rgba(0,0,0,0.42), 0 1px 10px 0 rgba(0,0,0,0.12), 0 4px 5px -2px rgba(0,0,0,0.1);
+}
+
+.copyright.pull-right
+{
+  display:none;
+}
+
+/*-------------------------------
+Media queries - 320px à 768px 
+-------------------------------*/
+
+@media all and (min-width: 320px) and (max-width: 767px)
+{
+
+
+/*-------------------------------
+Général
+-------------------------------*/
+  body
+  {
+    width: 100%;
+    height: auto;
+  }
+
+  .page-header 
+  {
+      padding-bottom: 9px;
+      margin-top: 25px;
+      background-image: linear-gradient(45deg, rgba(0,135,135,1) 0%, rgb(66,163,114) 100%);
+  }
+
+  .home .page-header
+  {
+    min-height: auto !important;
+    background-image: linear-gradient(45deg, rgba(0,135,135,1) 0%, rgb(66,163,114) 100%);
+    animation: none;
+  }
+
+  .home .page-header .container .hestia-title
+  {
+    animation: none;
+  }
+
+  .home .page-header .container .sub-title
+  {
+    animation: none;
+  }
+
+  .carousel .page-header .row .big-title-slider-content 
+  {
+      padding-top: 0px;
+  }
+
+    .page .page-header.header-small 
+    {
+      min-height: auto;
+    }
+
+    .page .page-header.header-small .container 
+    {
+      padding: 80px 15px 26px;
+    }
+
+    .blog .page-header.header-small .container 
+    {
+      padding: 80px 15px 26px;
+    }
+
+    .blog .page-header.header-small 
+    {
+      min-height: 160px;
+    }
+
+    .event-template-default .page-header.header-small 
+    {
+        min-height: auto;
+        position: relative;
+        height: auto;
+      }
+
+      .event-template-default .page-header.header-small .container 
+      {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .page-id-455 .header-filter
+    {
+      background-image: linear-gradient(45deg, rgba(0,135,135,1) 0%, rgb(66,163,114) 100%);
+      }
+
+    .blog .header-filter-gradient
+    {
+      background-image: linear-gradient(45deg, rgba(0,135,135,1) 0%, rgb(66,163,114) 100%);
+    }
+    
+    .page-id-49 .header-filter-gradient
+    {
+        background-image: linear-gradient(45deg, rgba(0,135,135,1) 0%, rgb(66,163,114) 100%);
+    }     
+
+    .page-id-46 .header-filter-gradient
+    {
+        background-image: linear-gradient(45deg, rgba(0,135,135,1) 0%, rgb(66,163,114) 100%);
+    }     
+
+    .main-raised
+    {
+      margin: 0;
+    }
+
+    /*-------------------------------
+  Page Accueil 
+  -------------------------------*/
+
+    .home #carousel-hestia-generic .carousel 
+    {
+        height: auto;
+    }
+
+    .home .page-header
+    {
+      height: auto;
+    }
+
+      .home .carousel .page-header .row 
+    {
+        text-align: center;
+        padding-top: 12px;
+    }
+
+    .big-title-slider-content .hestia-title 
+    {
+      font-size: 2em;
+    }
+
+    .home .carousel .page-header .container 
+    {
+      padding-top: 0px !important;
+    }
+
+    .home .page-header .container .hestia-title
+    {
+      padding-top: 50px;
+    }
+
+    .home .carousel .item .container 
+    {
+
+    padding: 50px 0;
+    }
+
+    .home .hestia-about p
+    {
+      text-align: left;
+      font-size: 1.5em;
+    }
+
+    .home .hestia-about-content 
+    {
+      text-align: center;
+      padding: 20px 20px 5px 20px;
+    }
+
+    .home .hestia-blog-content .card
+    {
+      text-align: center;
+    }
+
+    .home .wrapper .hestia-blogs 
+    {
+      padding: 30px 0 0px;
+    }
+
+    .home .col-ms-10
+    {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+     .page-template-template-fullwidth article table tr
+     {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      vertical-align: middle;
+     }
+
+     .page-id-39 .col-md-12 .inscription
+     {
+       flex-grow: 1;
+     }
+     
+     .page-id-455 .col-md-offset-2
+     {
+       margin-left: 0;
+     }
+
+     .page-id-455 table thead
+     {
+      max-width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+     }
+
+     .page-id-455 .css-events-list table.events-table th.event-time
+     {
+      width: 100px;
+     }
+
+
+     .page-id-455 table tbody
+     {
+      flex: 1;
+     }
+
+     .page-id-455 table tbody tr
+     {
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-top: 24px;
+     }
+
+     .page-id-455 table tbody td:first-child
+    {
+      width: 100%;
+    }
+
+    .page-id-455 table tbody td:nth-child(2)
+    {
+      width: 100%;
+    }
+
+    .page-id-455 table tbody td:nth-child(3)
+    {
+      display: none;
+    }
+
+    .page-id-455 table tbody td:last-child
+    {
+      width: 100%;
+      padding-right: 0;
+      padding-left: 20px;
+      padding-top: 12px;
+    }
+
+     .home .hestia-blog-content .card-image 
+     {
+      width: 290px;
+     }
+
+     .hestia-blogs .card-background 
+     {
+      width: 100%;
+     }
+
+     .hestia-blogs .card-description
+     {
+      font-size: 1.5em;
+      text-align: left;
+     }
+
+     .hestia-blogs .card-background .card-body 
+     {
+      max-width: 100%;
+      padding-top: 15px;
+      margin: auto;
+     }
+
+     .hestia-blogs #categories-2, #recent-posts-2
+     {
+      display: none;
+     }
+
+     .hestia-blogs .card-background .card-body .card-description 
+    {
+      text-align: left;
+    }
+
+     .page-id-46 .alignwide
+     {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+     }
+
+     .page-id-46 .wp-block-media-text__media
+     {
+      max-width: 200px;
+      padding-bottom: 10px;
+     }  
+
+     .page-id-46 .wp-block-media-text__content h4
+     {
+      text-align: center;
+      font-size: 2em;
+     }
+
+     .page-id-46 .wp-block-media-text__content p 
+     {
+      font-size: 1.5em;
+      text-align: left;
+     }
+     
+     .page-id-49 .col-md-offset-2 h3 
+     {
+      color: #008787;
+      text-align: center;
+      background-color: transparent;
+      padding: 0;
+     }
+
+     .page-id-49 .wpcf7-form.form-group 
+     {
+          padding: 15px 15px 10px 15px;
+     }
+
+      .page-id-49 .wpcf7-form-control.wpcf7-textarea.form-control
+      {
+        height: 100px;
+      }
+     
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px)
+{
+    body
+  {
+    width: 100%;
+    height: auto;
+  }
+
+  .page-id-455 .header-filter
+    {
+      background-image: linear-gradient(45deg, rgba(0,135,135,1) 0%, rgb(66,163,114) 100%);
+      }
+
+    .blog .header-filter-gradient
+    {
+      background-image: linear-gradient(45deg, rgba(0,135,135,1) 0%, rgb(66,163,114) 100%);
+    }
+    
+    .page-id-49 .header-filter-gradient
+    {
+        background-image: linear-gradient(45deg, rgba(0,135,135,1) 0%, rgb(66,163,114) 100%);
+    }     
+
+    .page-id-46 .header-filter-gradient
+    {
+        background-image: linear-gradient(45deg, rgba(0,135,135,1) 0%, rgb(66,163,114) 100%);
+    } 
+
+    .home .header-filter
+    {
+        background-image: linear-gradient(45deg, rgba(0,135,135,1) 0%, rgb(66,163,114) 100%);
+    }   
+
+    .home .page-header .container .hestia-title
+  {
+    animation: none;
+  }
+
+  .home .page-header .container .sub-title
+  {
+    animation: none;
+  }   
+
+  .home .page-header
+  {
+    max-width: 100%;
+    min-height: auto !important;
+    background-position: right;
+    background-size: cover;
+  }
+
+  .home .carousel .page-header .row 
+  {
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .home .hestia-about p
+  {
+    text-align: left;
+    font-size: 1.5em;
+  }
+
+  .home .hestia-about-content 
+  {
+    text-align: center;
+    padding: 20px 20px 5px 20px;
+  }
+
+  .home .hestia-blog-content .card
+  {
+    text-align: center;
+    width: 100%;
+  }
+
+  .home #blog.hestia-blogs .hestia-blog-item
+  {
+    width: 100%;
+  }
+
+  .home .card-description
+  {
+    text-align: left;
+    font-size: 1.5em;
+  }
+
+  .home .wrapper .hestia-blogs 
+  {
+    padding: 30px 0 0px;
+  }
+
+  .home .col-ms-10
+  {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .blog .page-header.header-small .container
+  {
+    padding: 140px 15px 90px;
+  }
+
+  .hestia-blogs .card-background 
+  {
+    width: 95%;
+  }
+
+  .hestia-blogs .card-background .card-body 
+  {
+    max-width: 95%;
+  }
+
+  .hestia-blogs .card-description
+   {
+    font-size: 1.5em;
+    text-align: justify;
+   }
+
+   .hestia-blogs .card-background .card-body .card-description
+   {
+    text-align: center;
+   }
+
+   .page-id-46 .wp-block-media-text>figure>img
+   {
+      margin-left: 28px;
+   }
+
+   .page-id-46 .wp-block-media-text .wp-block-media-text__content
+   {
+      padding-right: 20px;
+   }
+
+/*-----------------------------
+    Activités du mois
+-----------------------------*/
+
+    .page-id-455 .header-filter
+  {
+    background-size: cover;
+  }
+
+  .page-id-455 .col-md-offset-2
+     {
+       margin-left: 50px;
+     }
+
+     .page-id-455 table thead
+     {
+      display: none;
+     }
+
+     .page-id-455 .css-events-list table.events-table th.event-time
+     {
+      width: 100px;
+     }
+
+     .page-id-455 table tbody
+     {
+      flex: 1;
+     }
+
+     .page-id-455 table tbody tr
+     {
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-top: 24px;
+     }
+
+     .page-id-455 table tbody td:first-child
+    {
+      width: 100%;
+    }
+
+    .page-id-455 table tbody td:nth-child(2)
+    {
+      width: 100%;
+    }
+
+    .page-id-455 table tbody td:nth-child(3)
+    {
+      display: none;
+    }
+
+    .page-id-455 table tbody td:last-child
+    {
+      width: 100%;
+      padding-right: 0;
+      padding-left: 20px;
+      padding-top: 12px;
+    }
+
+  /*-----------------------------
+    Actualités
+-----------------------------*/
+
+/*-----------------------------
+    contact
+-----------------------------*/
+
+/*-----------------------------
+    Plus d'infos
+-----------------------------*/
+
+}
